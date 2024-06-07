@@ -16,8 +16,8 @@ paretoTimeAnalysis(...)
   rl,
   show.models = NA,
   objectives = "r.squared",
-  qoi = list(q90.in.units.of.runoff = function(Q, X, ...) quantile(X, 0.9, na.rm =
-    TRUE), r.sq.log = hmadstat("r.sq.log")),
+  qoi = list(q90.in.units.of.runoff = function(Q, X, ...) quantile(X, 0.9, na.rm = TRUE),
+    r.sq.log = hmadstat("r.sq.log")),
   ...
 )
 }

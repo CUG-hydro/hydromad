@@ -8,8 +8,8 @@
 \method{event.xyplot}{hydromad}(
   x,
   events,
-  formula = ~log2(e(Q, mean) + 0.01) + log2(e(lag(Q, -2), first) + 0.01) + log2(e(U,
-    max) + 0.01) + e(E, mean),
+  formula = ~log2(e(Q, mean) + 0.01) + log2(e(lag(Q, -2), first) + 0.01) + log2(e(U, max)
+    + 0.01) + e(E, mean),
   extract = residuals,
   with.U = TRUE,
   ...,
@@ -24,8 +24,8 @@
 \method{event.xyplot}{hydromad.runlist}(
   x,
   events,
-  formula = ~log2(e(Q, mean) + 0.01) + log2(e(lag(Q, -2), first) + 0.01) + log2(e(U,
-    max) + 0.01) + e(E, mean),
+  formula = ~log2(e(Q, mean) + 0.01) + log2(e(lag(Q, -2), first) + 0.01) + log2(e(U, max)
+    + 0.01) + e(E, mean),
   extract = residuals,
   with.U = TRUE,
   ...,
